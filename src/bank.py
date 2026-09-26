@@ -3,9 +3,9 @@ Bank owns the accounts and exposes create/deposit/withdraw/transfer/close.
 Doesn't care whether an account is Savings or Current - withdraw() and
 calc_interest() just work because of polymorphism.
 
-Persistence is optional: pass db_path to __init__ and every mutating
+Persistence is optional: We can pass db_path to __init__ and every mutating
 operation gets mirrored into SQLite via BankDB. Without db_path the
-bank behaves exactly like before (in-memory only).
+bank behaves exactly like right now (in-memory only).
 """
 from src.savings_account import SavingsAccount
 from src.current_account import CurrentAccount
