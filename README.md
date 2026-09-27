@@ -30,7 +30,7 @@ all through a simple menu-driven CLI.
   persistence (data survives across separate Bank instances/db reloads).
 
 ## Technologies / Tools Used
-- Python 3.9+
+- Python 3.x
 - SQLite (`sqlite3`, built-in) for persistence
 - NumPy (for statistical reporting)
 - `unittest` (built-in) for testing
@@ -87,7 +87,7 @@ done (the CLI does this on exit).
 ## Steps to Install & Run
 1. Clone the repository and enter the project folder:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/robolivice/Bank-System
    cd bank_system
    ```
 2. (Recommended) Create a virtual environment:
